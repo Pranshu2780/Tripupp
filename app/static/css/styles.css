@@ -7,19 +7,30 @@
 .head{
     background-color: orangered;
     color: aliceblue;
-    height: 50px;
+    height: 100px;
     font-weight: bold;
 }
 
-.navbar{
-    display:flex;
-    justify-content: space-between;
-}
-
-.name{
+.up{
+    display: flex;
     padding-left: 50px;
     padding-top: 10px;
     font-size: 19px;
+    outline: none;
+    border: none;
+}
+
+.search{
+    margin-left:22%;
+    outline: none;
+    border: none;
+}
+
+
+.form-control{
+    width:250%;
+    height:35px;
+    border-radius: 10px;
 }
 
 .nav_links{
@@ -30,25 +41,28 @@
     padding-left: 20px;
     list-style-type: none;
     text-decoration: none;
+    padding-top:15px
 }
 
 a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-family: sans-serif;
+    font-size:17px;
 }
 
 .nav_links li{
     display: inline-flex;
     padding: 10px 20px;
     font-size: 20px;
-    /* padding-top: 10px; */
 }
 
 
 .dropdown {
     float: left;
     overflow: hidden;
+    margin-right:30px
 }
 
 .dropdown-content {
@@ -87,7 +101,7 @@ a{
 }
 
 #content-wrap{
-    padding-bottom: 600px;
+    padding-bottom: 20rem;
 }
 
 .main-content1{
@@ -118,54 +132,61 @@ a{
       flex-basis: 25%;
 }
 
-.height{
-     padding-top: 300px;
-     padding-left: 0px;
+body{
+    background-color: lightgrey;
 }
 
-.container{
-    width: 100%;
-    height: 230px;
-    padding-left: 90px;
-    /* padding-right: 20px; */
+.boxx-content{
+    background-color: white;
+    height:68px;
+    width: 35%;
+    margin-left:27%;
+    margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
-    background-color: #E0E0E0;
+    justify-content: center;
+    padding: 18px 10px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
-.oxy{
-    padding-top:35px ;
-    width: 350px;
-    height: 220px;
+#test{
+    color:black
+}
+
+footer{
+    margin-top: 5px;
+}
+
+
+.box-container{
+    margin-left:100px;
+    margin-top:60px;
+}
+
+.pdf-div{
+    margin:40px 100px 10px 100px ;
+    height:100px;
+}
+
+.about{
+    margin:0px 100px 10px 100px;
+}
+
+.desc-box{
+    background-color: white;
+    width:1300px;
+    height:400px;
+    margin:40px 100px 10px 100px;
+    box-shadow: 6px 6px 6px 6px rgba(0,0,0,.6);
     border-radius: 10px;
-    flex-basis: 1 0 21%;
 }
 
-.oxy:hover{
-    padding-top: 25px;
-    cursor: pointer;
+.desc-box-cont a{
+    padding-top:30px;
+    padding-left:30px;
+    margin-right: 300px;
 }
 
-.arrow{
-    cursor: pointer;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
-
-#arrow-left{
-    top:440px;
-    position: absolute;
-    padding: 0px;
-    border-width: 30px 40px 30px 0px;
-    border-color: transparent black transparent transparent;   
-}
-
-
-#arrow-right{
-    top: 440px;
-    right:0px;
-    position: absolute;
-    border-width: 30px 0px 30px 40px;
-    border-color: transparent transparent transparent  black;   
+.gf{
+    flex-basis: 50%;
 }
